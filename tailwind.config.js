@@ -7,11 +7,16 @@ export default {
     flowbite.content(),
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        pirata: 'Pirata One, system-ui',
+        poppins: 'Poppins, sans-serif',
+      }
+    },
 
   },
   daisyui: {
-    themes: ["light", "dark", "cupcake"],
+    themes: ["light"],
   },
   plugins: [
     require('daisyui'),
