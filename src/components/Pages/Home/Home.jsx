@@ -20,12 +20,12 @@ const Home = () => {
             <Header></Header>
             <BreakingNews></BreakingNews>
             <Navbar></Navbar>
-            <div className="grid grid-cols-1 md:grid-cols-4 gap-6 mx-auto my-6 w-11/12">
+            <div className="grid grid-cols-1 md:grid-cols-4 gap-10 mx-auto my-6 w-11/12 font-poppins">
                 <div className=''>
                     <LeftSideBar data={data}></LeftSideBar>
                 </div>
                 <div className='md:col-span-2'>
-                    <h2 className='text-4xl font-bold'>
+                    <h2 className='text-2xl font-bold mb-8'>
                         Deadly News Home
                     </h2>
                     <div>
@@ -34,7 +34,7 @@ const Home = () => {
                         }
                     </div>
                 </div>
-                <div className=''>
+                <div>
                     <RightSideBar></RightSideBar>
                 </div>
             </div>
